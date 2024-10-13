@@ -1,4 +1,3 @@
-
 # Kinematics Homework 3
 -   **FRA333_HW3_60_70.py**: เป็นไฟล์ที่แสดงวิธีการหา  Jacobian ด้วยวิธีที่เราหามา , มีการแสดงวิธีการเช็ค singularities และการคำนวณหา  torques
     
@@ -210,7 +209,7 @@ python3 .\testScript.py
 4. **การตรวจสอบผลลัพธ์**	
 เราจะใช้การเปรียบเทียบผลลัพธ์ Jacobian ที่คำนวณเอง `J_ours = endEffectorJacobianHW3(q)` และ Jacobian ที่คำนวณจาก Robotics Toolbox `J_rtb = robot.jacob0(q)` เพื่อเช็คความถูกต้องของการคำนวณ โดยจะต้องมีค่าความแตกต่างกันไม่เกิน `0.000001`จึงจะแสดงค่า `True`
 
-### Result#1
+### Result1:
 <p  align="center">
 <img  src="http://cdn.jsdelivr.net/gh/whyawayme/image/Result1.png"/>
 </p>
@@ -230,7 +229,7 @@ python3 .\testScript.py
 4.  **การสุ่มค่า q**
 สุ่มค่าของ q และใช้ทั้งฟังก์ชันที่เราสร้างขึ้นและ Robotics Toolbox เพื่อตรวจสอบ
 
-### Result#2
+### Result2:
 <p  align="center">
 <img  src="http://cdn.jsdelivr.net/gh/whyawayme/image/Result2.png"/>
 </p>
@@ -250,7 +249,7 @@ python3 .\testScript.py
 4.  **เปรียบเทียบผลลัพธ์**
  ตรวจสอบว่า torque จากทั้งสองวิธีใกล้เคียงกันหรือไม่โดยมีค่าต่างกันไม่เกิน 10^-6 จึงจะถือว่าตรงกัน
 
-### Result#3
+### Result3:
 <p  align="center">
 <img  src="http://cdn.jsdelivr.net/gh/whyawayme/image/Result3.png"/>
 </p>
