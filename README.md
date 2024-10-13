@@ -1,7 +1,7 @@
 # Kinematics Homework 3
--   **FRA333_HW3_60_70.py**: เป็นไฟล์ที่แสดงวิธีการหา  Jacobian ด้วยวิธีที่เราหามา , มีการแสดงวิธีการเช็ค singularities และการคำนวณหา  torques
+-   **FRA333_HW3_60_70.py**: เป็นไฟล์ที่แสดงวิธีการหา  Jacobian ด้วยวิธีของเรา , มีการแสดงวิธีการเช็ค singularities และการคำนวณหา  torques
     
--   **testScript.py**: เป็นการแสดงการเช็คคำตอบวิธีที่เราทำเองกับคำตอบจาก  roboticstoolbox
+-   **testScript.py**: เป็นการแสดงการเช็คคำตอบจากวิธีของเรากับคำตอบจาก roboticstoolbox
 
   
 
