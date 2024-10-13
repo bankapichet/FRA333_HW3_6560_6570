@@ -35,7 +35,7 @@ pip  install  spatialmath
 ## ขั้นตอนการใช้งาน
 
 
-### Run FRA333_HW3_6560_6570.py 
+### - Run FRA333_HW3_6560_6570.py 
 
 ```sh
 python3  .\FRA333_HW3_6560_6570.py
@@ -181,7 +181,11 @@ tua = computeEffortHW3(q,w)
 
 ## เช็คคำตอบ
 
+### - Run testScript.py 
 
+```sh
+python3 .\testScript.py
+```
 
 ### คำถามข้อที่ 1 : หา Jacobian  Matrix ของหุ่นยนต์
 ในการตรวจคำตอบข้อนี้เราจะทำการใช้ `roboticstoolbox` เพื่อเป็นอีกวิธีคิดในการหา Jacobian matrix และนำมาเปรียบเทียบค่ากัน Jacobian matrix ที่คิดก่อนหน้าโดยจะต้องมีค่าความแตกต่างกันไม่เกิน 0.000001 จึงจะถูกต้อง
